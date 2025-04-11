@@ -1,5 +1,5 @@
 import { FaChartLine, FaJava, FaLanguage, FaPython } from "react-icons/fa";
-import { SiAmazonaws, SiAngular, SiDjango, SiDocker, SiFastapi, SiFlask, SiGit, SiGithub, SiGithubactions, SiJupyter, SiKeras, SiMongodb, SiMysql, SiNumpy, SiPandas, SiPytorch, SiScikitlearn, SiSpringboot, SiTensorflow } from "react-icons/si";
+import { SiAmazonaws, SiAngular, SiDjango, SiDocker, SiFastapi, SiFlask, SiGit, SiGithub, SiGithubactions, SiJupyter, SiKeras, SiMongodb, SiMysql, SiNumpy, SiPandas, SiPlotly, SiPytorch, SiScikitlearn, SiSpringboot, SiTensorflow } from "react-icons/si";
 import { PiGraphFill } from "react-icons/pi";
 import { MdEngineering, MdLan, MdLanguage, MdSyncProblem } from "react-icons/md";
 import { DiMysql } from "react-icons/di";
@@ -46,27 +46,27 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: SiNumpy
   },
-  {
-    name: "Flask",
-    description:
-      "skills.flask.description",
-    rating: 2.5,
-    icon: SiFlask
-  },
-  {
-    name: "Django",
-    description:
-      "skills.django.description",
-    rating: 2,
-    icon: SiDjango
-  },
-  {
-    name: "FastAPI",
-    description:
-      "skills.fastapi.description",
-    rating: 2,
-    icon: SiFastapi
-  },
+  // {
+  //   name: "Flask",
+  //   description:
+  //     "skills.flask.description",
+  //   rating: 2.5,
+  //   icon: SiFlask
+  // },
+  // {
+  //   name: "Django",
+  //   description:
+  //     "skills.django.description",
+  //   rating: 2,
+  //   icon: SiDjango
+  // },
+  // {
+  //   name: "FastAPI",
+  //   description:
+  //     "skills.fastapi.description",
+  //   rating: 2,
+  //   icon: SiFastapi
+  // },
   {
     name: "Pytorch",
     description:
@@ -94,6 +94,13 @@ export const skillsUnsorted: skillsInterface[] = [
       "skills.matplotlib.description",
     rating: 4,
     icon: FaChartLine
+  },
+  {
+    name: "Plotly",
+    description:
+      "skills.plotly.description",
+    rating: 4,
+    icon: SiPlotly
   },
   {
     name: "skills.computer-vision.name",
@@ -124,18 +131,18 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: TbChartInfographic
   },
   {
-    name: "Jupyter",
-    description:
-      "skills.jupyter.description",
-    rating: 5,
-    icon: SiJupyter
-  },
-  {
     name: "skills.etl.name",
     description:
       "skills.etl.description",
     rating: 5,
     icon: GiTeePipe
+  },
+  {
+    name: "skills.english.name",
+    description:
+      "skills.english.description",
+    rating: 5,
+    icon: MdLanguage
   },
   {
     name: "skills.deeplearning.name",
@@ -208,6 +215,13 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: RiTeamFill
   },
   {
+    name: "Jupyter",
+    description:
+      "skills.jupyter.description",
+    rating: 5,
+    icon: SiJupyter
+  },
+  {
     name: "Java",
     description:
       "skills.java.description",
@@ -254,13 +268,6 @@ export const skillsUnsorted: skillsInterface[] = [
     description:
       "skills.spanish.description",
     rating: 5,
-    icon: MdLanguage
-  },
-  {
-    name: "skills.english.name",
-    description:
-      "skills.english.description",
-    rating: 4.5,
     icon: MdLanguage
   }
 ];

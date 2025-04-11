@@ -24,6 +24,9 @@
     "contact.form.social": "Social (opcional)",
     "contact.form.social.placeholder": "Enlace a una cuenta social",
     "contact.form.submit": "Enviar",
+    "contact.form.thank-you": "¡Gracias!",
+    "contact.form.success": "¡Tu mensaje ha sido enviado con éxito! Gracias por escribir, me pondré en contacto contigo en breve.",
+    "contact.form.error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.",
 
     "skills.title": "Habilidades",
     "skills.description": "Tengo experiencia en las siguientes tecnologías y herramientas:",
@@ -74,6 +77,7 @@
     "skills.fastapi.description": "Crear APIs REST de alto rendimiento rápidamente con FastAPI y anotaciones de tipos en Python.",
     "skills.docker.description": "Empaquetar aplicaciones y sus dependencias en contenedores para un despliegue consistente en cualquier entorno.",
     "skills.cicd.description": "Automatizar procesos de construcción, prueba y despliegue mediante pipelines de integración y entrega continuas.",
+    "skills.plotly.description": "Crear gráficos interactivos y visualizaciones de datos utilizando la librería Plotly.",
 
 
     "navbar.home": "Inicio",
@@ -93,19 +97,17 @@
 
     "view-all": "Ver todo",
 
-    "skills.title": "Habilidades",
-    "skills.description": "Tengo experiencia en las siguientes tecnologías y herramientas:",
-
     "experience.title": "Experiencia",
     "experience.description": "Tengo experiencia en el desarrollo, despliegue y mantenimiento de modelos de aprendizaje automático, así como en servicios en la nube de AWS y en la implementación de pipelines de integración y entrega continuas (CI/CD).",
 
     "projects.title": "Proyectos",
-    "projects.description": "He trabajado en los siguientes proyectos:",
+    "projects.description": "Estos son los proyectos en los que he trabajado. Para más detalles, haga clic en el proyecto para ser redirigido a su respectivo repositorio.",
 
     "projects.fact-verification-system.description": "Sistema de verificación de hechos sobre el cambio climático basado en RAG, proporcionando un nivel de confianza y fuentes de información.",
     "projects.exercise4you.description": "Desarrollo y mantenimiento de una aplicación web para la gestión de pacientes y prescripción de ejercicio físico.",
     "projects.antibiotic-resistance-prediction.description": "Predicción con explicabilidad de la resistencia a antibióticos en Staphylococcus aureus utilizando espectros MALDI-TOF.",
-    "projects.credit-granting-prediction.description": "Predicción de la concesión de créditos y de riesgos crediticios. Proyecto ganador de la competición realizada en la asignatura de Aprendizaje Automático.",
+    "projects.credit-granting-prediction.description": "Predicción de la concesión de créditos y de riesgos crediticios. Proyecto ganador de la competición realizada en el curso de Aprendizaje Automático.",
+    "projects.f1-constructor-points-dashboard.description": "Panel interactivo sencillo para visualizar los puntos promedio de los constructores de F1 por temporada. Implementado con Plotly Dash.",
 
     "education.title": "Educación",
     "education.description": "Tengo una sólida formación en informática orientada a la inteligencia artificial, reforzada por la comprensión de los conceptos matemáticos que la sustentan.",

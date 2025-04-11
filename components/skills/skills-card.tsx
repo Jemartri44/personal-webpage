@@ -24,7 +24,7 @@ export default function SkillsCard({ skills }: SkillsCardProps) {
               <p className="text-sm text-muted-foreground">
                 {t(skill.description as keyof typeof t)}
               </p>
-              <Rating stars={skill.rating} />
+              {/*<Rating stars={skill.rating} />*/}
             </div>
           </div>
         </div>

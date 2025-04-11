@@ -32,7 +32,7 @@ export const Experiences: ExperienceInterface[] = [
     id: "enel",
     companyName: "Enel Green Power",
     type: "Professional",
-    category: ["Data Science", "Predictive Maintenance", "Data Engineering"],
+    category: ["Data Science", "Predictive Maintenance", "Data Engineering", "Anomaly Detection"],
     shortDescriptionKey:
       "experience.enel.shortDescription",
     websiteLink: "https://www.enelgreenpower.com",
@@ -64,7 +64,7 @@ export const Experiences: ExperienceInterface[] = [
     id: "exercise4you",
     companyName: "Exercise4You",
     type: "Professional",
-    category: ["Web Dev", "Full Stack", "Freelance"],
+    category: ["Web Dev", "Full Stack", "Freelance", "Amazon Web Services"],
     shortDescriptionKey:
       "experience.exercise4you.shortDescription",
     websiteLink:

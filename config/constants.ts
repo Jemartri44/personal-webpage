@@ -57,6 +57,8 @@ export type ValidCategory =
   | "Mobile Dev"
   | "3D Modeling"
   | "Freelance"
+  | "Anomaly Detection"
+  | "Amazon Web Services"
 
 export type ValidExpType = "Personal Project" | "Professional";
 

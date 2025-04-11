@@ -28,6 +28,12 @@ export const projectsUnsorted: projectsInterface[] = [
     projectDescription:
       "projects.credit-granting-prediction.description",
     link: "https://github.com/guillermo-grande/Credit-Granting-Prediction-ML"
+  },
+  {
+    repo: "f1-constructor-points-dashboard",
+    projectDescription:
+      "projects.f1-constructor-points-dashboard.description",
+    link: "https://github.com/Jemartri44/f1-constructor-points-dashboard"
   }
 ];
 

@@ -5,7 +5,7 @@ export function useDownloadCV() {
   
   return () => {
     // Get the filename based on current language
-    const filename = language === 'es' ? 'cv-es.pdf' : 'cv-en.pdf';
+    const filename = language === 'es' ? 'CV_JesusMartinTrilla_Es.pdf' : 'CV_JesusMartinTrilla_En.pdf';
     const fileUrl = `/cv/${filename}`;
     
     // Create a temporary link element to trigger the download

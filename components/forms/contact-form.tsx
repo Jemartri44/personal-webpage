@@ -18,6 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useModalStore } from "@/hooks/use-modal-store";
 import { useTranslation } from "@/utils/client-translation";
+import { MdErrorOutline } from "react-icons/md";
 
 const formSchema = z.object({
   name: z.string().min(3, {
@@ -62,14 +63,21 @@ export function ContactForm() {
 
       if (response.status === 200) {
         storeModal.onOpen({
-          title: "Thankyou!",
+          title: t("contact.form.thank-you"),
           description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
+            t("contact.form.success"),
           icon: Icons.successAnimated,
         });
       }
     } catch (err) {
       console.log("Err!", err);
+      storeModal.onOpen({
+        title: "Error",
+        description:
+          t("contact.form.error"),
+        icon: MdErrorOutline,
+      });
+      
     }
   }
 
